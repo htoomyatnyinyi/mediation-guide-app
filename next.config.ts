@@ -4,10 +4,10 @@ const nextConfig: NextConfig = {
   /* config options here */
 
   output: "standalone", // Required for tiny Docker + Bun
-  i18n: {
-    locales: ["en", "my"], // English + Burmese
-    defaultLocale: "en",
-  },
+  // i18n: {
+  //   locales: ["en", "my"], // English + Burmese
+  //   defaultLocale: "en",
+  // },
 
   // // Explicitly handle MP3 for Turbopack/Webpack fallback
   // webpack: (config, { isServer }) => {
